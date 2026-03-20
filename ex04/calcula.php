@@ -1,0 +1,43 @@
+<?php
+
+$num = $_GET["num"];
+?>
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Triângulo Numérico</title>
+
+</head>
+
+<body>
+
+<h1>Triângulo Numérico:</h1>
+
+<?php 
+
+if ($num > 0) {
+for ($i = 1; $i <= $num; $i++) {
+    echo "<br>";
+    for ($j = 1; $j <= $i; $j++) {
+        echo $j . " ";
+    }
+}
+}
+
+    else {
+        echo "O número digitado é inválido!";
+    }
+?>
+
+<br>
+    
+<a href="index.php"><button>Voltar</button></a>
+
+</body>
+
+</html>
