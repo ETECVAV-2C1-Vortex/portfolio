@@ -1,6 +1,6 @@
 <!--
 Data: 06/03/2026
-Autor: Joao Guilherme
+Autor: Joao Guilherme, Hector Elias
 Objetivo:
 Exercício 4 - Triangulo Numerico
 Leia um número n e imprima n linhas no seguinte formato (exemplo para n = 6):

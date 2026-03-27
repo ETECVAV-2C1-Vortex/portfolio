@@ -1,9 +1,9 @@
 <!--
 Data: 20/03/2026
-Autor: Joao G, Hector
+Autor: Joao G
 Objetivo: nao sei
 
-Exercício 7 - Separar Positivos e Negativos
+Exercício 8 - Separar Positivos e Negativos
 Leia 8 números inteiros e separe em dois vetores:
 Um vetor com números positivos
 Um vetor com números negativos
@@ -55,7 +55,10 @@ Um vetor com números negativos
     <input type="int" name="n8" step="any" required>
     <br><br>
   
- 
+    
+
+
+
 
     <input type="submit" value="Separar">
 </form>

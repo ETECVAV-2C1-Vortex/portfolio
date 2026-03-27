@@ -17,7 +17,7 @@ $n1 = $_GET['n1'];
 
 <body>
 
-<h1>Taí saporra (GET)</h1>
+<h1>Entre 100 e 200 (GET)</h1>
 
 <p>Primeiro número: <?php echo $n1; ?></p>
 <?php if ($n1 >= 100 && $n1 <=200) {

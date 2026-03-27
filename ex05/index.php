@@ -1,6 +1,6 @@
 <!--
 Data: 06/03/2026
-Autor: Joao G.
+Autor: Joao G., Hector 
 Objetivo: 
 
 Exercício 5 - Somatorio de Fatoriais
@@ -11,7 +11,7 @@ Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title> Soma Fatoriais (GET)</title>
+  <title> Soma de Fatoriais (GET)</title>
 </head>
 <body>
 

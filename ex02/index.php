@@ -1,6 +1,6 @@
 <!--
 Data: 06/03/2026
-Autor: Joao
+Autor: Joao G., Hector Elias
 Objetivo: nao sei
 
 Exercício 2 - Conversão de Temperatura

@@ -29,7 +29,7 @@ $op = $_GET['op'];
 
 <p>Segundo número: <?php echo $n2; ?></p>
 
-<p>Operador  <?php echo $op; ?></p>
+<p>Operador: <?php echo $op; ?></p>
 
 
 

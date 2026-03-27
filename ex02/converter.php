@@ -12,13 +12,13 @@ $n1 = $_GET['n1'];
 
 <meta charset="UTF-8">
 
-<title>Entre 100 e 200</title>
+<title>Conversão de Temperatura</title>
 
 </head>
 
 <body>
 
-<h1>Taí saporra </h1>
+<h1>Conversão </h1>
 
 <p>Primeiro número: <?php echo $n1; ?></p>
 <?php if ($temp == "C") {

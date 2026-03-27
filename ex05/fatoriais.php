@@ -32,7 +32,7 @@ $fat5 = 1;
 
 <meta charset="UTF-8">
 
-<title>Soma Fatorial</title>
+<title>Soma de Fatoriais</title>
 
 </head>
 

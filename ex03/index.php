@@ -1,10 +1,11 @@
 <!--
 Data: 06/03/2026
-Autor: Igor M.
-Objetivo: nao sei
+Autor: João G., Hector Elias
+Objetivo:
 
-Exercício 1 - Intervalo entre 100 e 200
-Faça um programa que receba um número e diga se este número está no intervalo entre 100 e 200.
+Exercício 3 - Calculadora Aritmética
+Faça um programa que leia dois números e um operador ("+", "-", "*" ou "/").
+O programa deve mostrar o resultado da operação.
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
