@@ -1,66 +1,33 @@
 <!--
-Data: 20/03/2026
-Autor: Joao G
-Objetivo: nao sei
+Data: 27/03/2026
+Autor: Joao G, Hector
+Objetivo:
 
-Exercício 8 - Separar Positivos e Negativos
-Leia 8 números inteiros e separe em dois vetores:
-Um vetor com números positivos
-Um vetor com números negativos
+Exercício 8 - Soma de 0 até N com Função
+Crie uma função soma(n) que receba um número inteiro e retorne a soma de 0 até esse número.
+
+
 -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title> Separar positivos e negativos (GET)</title>
+  <title> Soma de 0 até N com Função (GET)</title>
 </head>
 <body>
 
-<form action="separa.php" method="get">
+<form action="somafunc.php" method="get">
   
 
-<label>Digite os valores para separar: </label>
+<label>Digite um número: </label>
   
     <br><br>
 
-    <label>Número 1 :</label>
-    <input type="int" name="n1" step="any" required>
+    <label>Número  :</label>
+    <input type="int" name="n" step="any" required>
     <br><br>
-  
-    <label>Número 2 :</label>
-    <input type="int" name="n2" step="any" required>
-    <br><br>
-  
-    <label>Número 3 :</label>
-    <input type="int" name="n3" step="any" required>
-    <br><br>
-  
-    <label>Número 4 :</label>
-    <input type="int" name="n4" step="any" required>
-    <br><br>
-  
-    <label>Número 5 :</label>
-    <input type="int" name="n5" step="any" required>
-    <br><br>
-  
-    <label>Número 6 :</label>
-    <input type="int" name="n6" step="any" required>
-    <br><br>
-  
-    <label>Número 7 :</label>
-    <input type="int" name="n7" step="any" required>
-    <br><br>
-  
-    <label>Número 8 :</label>
-    <input type="int" name="n8" step="any" required>
-    <br><br>
-  
-    
 
-
-
-
-    <input type="submit" value="Separar">
+    <input type="submit" value="Enviar">
 </form>
 
 </body>
