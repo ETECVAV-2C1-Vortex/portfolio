@@ -1,13 +1,20 @@
-# Etec Vasco Antônio Venchiarutti
-DESENVOLVIMENTO DE SISTEMAS
-2ºC¹
+# Etec Vasco Antônio Venchiarutti 
+## Desenvolvimento de Sistemas 2ºC¹
 
 ## Hector Elias dos Santos Fernandes e João Guilherme Araujo Souza
 
+
 ## Projeto 1:
- .É um app simples feito apenas como forma de aprendermos a utilizar legendas e botoews, que são o basico da materia;
-.Quando você aperta o botão aparece uma mensagem escrita "Hello Word";
-.Acabou que por ser um APP simples não houve alterações entre a apostila e o produto final;
+
+<p> É um app simples feito apenas como forma de aprendermos a utilizar legendas e botões, que são o básico da matéria.
+</p><p>
+Quando você aperta o botão aparece uma mensagem escrita "Hello World".
+</p><p>
+ Acabou que por ser um APP simples não houve alterações entre a apostila e o produto final.
+
+
+</p>
+
 
 ## Projeto 2:
 .
@@ -16,12 +23,16 @@ DESENVOLVIMENTO DE SISTEMAS
 
 
 ## Projeto 3:
-.Basicamente esse projeto é um app que simula um liquidificador,na tela tem uma imagem de liquidificador e tambem existe um botão a onde se o apertarmos o celular vibra e emite um som de liquidificador;
-.A a maior modificação a mudança de imagem;
+<p>Basicamente esse projeto é um app que simula um liquidificador,na tela tem uma imagem de liquidificador e tambem existe um botão a onde se o apertarmos o celular vibra e emite um som de liquidificador;
+</p><p>A maior modificação a mudança de imagem;
+</p>
+
 
 ## Projeto 4:
-.O APP consiste em acessar a sua camera com um botão tirar uma foto, exibir a foto e tam em tem um botão escrito "Fechar"
+<p>O APP consiste em acessar a sua camera com um botão tirar uma foto, exibir a foto e tam em tem um botão escrito "Fechar"
 que remove a foto da tela;
+</p>
+
 
 ## Projeto 5:
 .
