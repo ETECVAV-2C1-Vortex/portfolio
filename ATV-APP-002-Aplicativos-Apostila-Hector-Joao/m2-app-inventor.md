@@ -41,7 +41,12 @@ que remove a foto da tela;
 
 ## Projeto 5:
 
+<p>App feito para navegarmos entre diferentes telas/guias, como forma de aprendemos a manipularmos as guias.</p>
 
 
 
 ## Projeto 6:
+
+<p>App feito para interargimos com uma caixa de texto, como forma de aprendemos a manipular textos recebidos pelo usuário</p>
+
+<p>O App contém uma caixa de texto que o usuário deve preencher com seu nome, e em seguida, ao clicar no botão abaixo, aparecerá uma mensagem escrito "Olá (nome enviado) !!!</p>
