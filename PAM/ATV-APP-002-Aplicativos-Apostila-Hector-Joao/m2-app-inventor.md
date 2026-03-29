@@ -81,8 +81,38 @@ que remove a foto da tela;
 ## Projeto 5:
 
 <p>App feito para navegarmos entre diferentes telas/guias, como forma de aprendemos a manipularmos as guias.</p>
-<p>  </p>
+<p>O APP consiste basicamente em uma tela inicial com botoes que levam as outras telas 1 e 2, na tela1 existe um botao que volta a tela inicial, e na tela 2 existe um botao que leva a tela inicial e outro que leva a tela 1 </p>
 <p>Não foi realizada mudanças</p>
+
+
+### - Design
+
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5da.png" width="240px">
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5db.png" width="240px">
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5dc.png" width="240px">
+
+### - Blocos
+
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5ba.png" width="240px">
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5bb.png" width="240px">
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/5bc.png" width="240px">
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -92,3 +122,14 @@ que remove a foto da tela;
 
 <p>O App contém uma caixa de texto que o usuário deve preencher com seu nome, e em seguida, ao clicar no botão abaixo, aparecerá uma mensagem escrito "Olá (nome enviado) !!!</p>
 <p>Os componentes foram centralizados</p>
+
+
+### - Design
+
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/6d.png" width="240px">
+
+### - Blocos
+
+
+<img src="https://github.com/ETECVAV-2C1-Vortex/portfolio/blob/main/PAM/ATV-APP-002-Aplicativos-Apostila-Hector-Joao/img/6b.png" width="240px">
