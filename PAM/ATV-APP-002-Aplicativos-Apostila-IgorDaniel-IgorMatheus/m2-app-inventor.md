@@ -23,10 +23,10 @@ O objetivo é criar uma saudação inicial. Ao clicar no botão "Clique Aqui", o
 Foi adicionado o componente de mídia TextoParaFalar para que, além de exibir o texto na tela, o celular "fale" a frase "Olá Mundo" em voz alta ao clicar no botão.
 
 ## Print do Design
-<img src="images/p1_tela1.jpg">
+<img src="app-apostila1/images/p1_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p1_blocos.jpg">
+<img src="app-apostila1/images/p1_blocos.jpg">
 
 ---
 
@@ -40,10 +40,10 @@ Foram adicionados dois novos botões: "Pincel Fino" e "Pincel Grosso". Na progra
 para que o usuário possa alternar entre um traço mais delicado (valor 2) e um traço mais destacado (valor 8).
 
 ## Print do Design
-<img src="images/p2_tela1.jpg">
+<img src="app-apostila1/images/p2_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p2_blocos.jpg">
+<img src="app-apostila1/images/p2_blocos.jpg">
 
 ---
 
@@ -56,10 +56,10 @@ Ao tocar na imagem de um liquidificador, o celular deve vibrar e reproduzir o so
 Inclusão de um botão para interromper o som (Stop)
 
 ## Print do Design
-<img src="images/p3_tela1.jpg">
+<img src="app-apostila1/images/p3_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p3_blocos.jpg">
+<img src="app-apostila1/images/p3_blocos.jpg">
 
 ---
 
@@ -72,10 +72,10 @@ Utiliza o componente de hardware do celular para capturar fotografias. O app abr
 Um botão que apaga a foto da tela após ela ser tirada, permitindo que o usuário limpe a interface sem fechar o app
 
 ## Print do Design
-<img src="images/p4_tela1.jpg">
+<img src="app-apostila1/images/p4_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p4_blocos.jpg">
+<img src="app-apostila1/images/p4_blocos.jpg">
 
 ---
 
@@ -88,14 +88,14 @@ Foca na navegação entre diferentes interfaces. O usuário clica em botões na 
 Utilização de temas visuais diferentes para cada tela para facilitar a distinção
 
 ## Print do Design
-<img src="images/p5_tela1.jpg">
-<img src="images/p5_tela2.jpg">
-<img src="images/p5_tela3.jpg">
+<img src="app-apostila1/images/p5_tela1.jpg">
+<img src="app-apostila1/images/p5_tela2.jpg">
+<img src="app-apostila1/images/p5_tela3.jpg">
 
 ## Print dos Blocos
-<img src="images/p5_blocos1.jpg">
-<img src="images/p5_blocos2.jpg">
-<img src="images/p5_blocos3.jpg">
+<img src="app-apostila1/images/p5_blocos1.jpg">
+<img src="app-apostila1/images/p5_blocos2.jpg">
+<img src="app-apostila1/images/p5_blocos3.jpg">
 
 ---
 
@@ -108,7 +108,7 @@ Captura a entrada de texto do usuário através do teclado. Ao digitar o nome e 
 Validação para não permitir saudações vazias usando o notificador
 
 ## Print do Design
-<img src="images/p6_tela1.jpg">
+<img src="app-apostila1/images/p6_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p6_blocos.jpg">
+<img src="app-apostila1/images/p6_blocos.jpg">
