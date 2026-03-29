@@ -1,7 +1,7 @@
 <!--
-Data: 13/03/2026
+Data: 29/03/2026
 Autor: Igor Daniel e Igor Matheus
-Objetivo:
+Objetivo: Desenvolver uma calculadora aritmética utilizando o método GET para envio de dados e a estrutura de decisão switch para o processamento das operações
 
 Exercício 3 - Calculadora Aritmética
 Faça um programa que leia dois números e um operador ("+", "-", "*" ou "/").

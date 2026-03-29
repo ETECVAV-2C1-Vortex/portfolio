@@ -1,7 +1,7 @@
 <!--
-Data: 13/03/2026
+Data: 29/03/2026
 Autor: Igor Daniel e Igor Matheus
-Objetivo:
+Objetivo: Verificar se um número recebido via formulário está no intervalo entre 100 e 200
 
 Exercício 1 - Intervalo entre 100 e 200
 Faça um programa que receba um número e diga se este número está no intervalo entre 100 e 200.

@@ -1,7 +1,7 @@
 <?php
 
-$num = $_GET["num"];
-$unidade = $_GET["unidade"];
+$num = (float)$_GET["num"];
+$unidade = (string)$_GET["unidade"];
 
 ?>
 

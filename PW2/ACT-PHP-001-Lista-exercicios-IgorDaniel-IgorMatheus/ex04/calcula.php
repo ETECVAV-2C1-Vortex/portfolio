@@ -1,6 +1,6 @@
 <?php
 
-$num = $_GET["num"];
+$num = (int)$_GET["num"];
 ?>
 
 <!DOCTYPE html>
@@ -22,13 +22,12 @@ $num = $_GET["num"];
 
 if ($num > 0) {
 for ($i = 1; $i <= $num; $i++) {
-    echo "<br>";
     for ($j = 1; $j <= $i; $j++) {
         echo $j . " ";
     }
+    echo "<br>";
 }
 }
-
     else {
         echo "O número digitado é inválido!";
     }

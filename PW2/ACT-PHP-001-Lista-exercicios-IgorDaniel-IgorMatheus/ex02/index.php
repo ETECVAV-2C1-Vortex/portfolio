@@ -1,7 +1,7 @@
 <!--
-Data: 13/03/2026
+Data: 29/03/2026
 Autor: Igor Daniel e Igor Matheus
-Objetivo:
+Objetivo: Converter valores de temperatura entre as escalas Celsius e Fahrenheit utilizando formulários e estruturas condicionais
 
 Faça um programa que leia um caractere "F" ou "C", indicando se o valor informado está em Fahrenheit ou Celsius.
 Depois, o programa deve converter para a outra unidade.
@@ -24,7 +24,7 @@ Fórmula: C = 5/9 × (F − 32)
     <br>
     <br>
     <label>Digite a unidade atual do número (F para Fahrenheint/C para Celsius):</label>
-    <input type="text" name="unidade" step="any" required>
+    <input type="text" name="unidade" required>
     
     <input type="submit" value="Verificar">
   </form>

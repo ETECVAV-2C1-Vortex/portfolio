@@ -1,7 +1,7 @@
 <!--
-Data: 13/03/2026
+Data: 29/03/2026
 Autor: Igor Daniel e Igor Matheus
-Objetivo:
+Objetivo: Implementar a lógica de cálculo de fatoriais para múltiplos valores de entrada e realizar o somatório dos resultados utilizando funções e laços de repetição
 
 Exercício 5 - Somatório de Fatoriais
 Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
@@ -16,23 +16,23 @@ Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
 
   <h1>Soma de 5 fatoriais</h1>
 
-  <form action="calcula.php" method="get">
+  <form action="calcula.php" method="post">
     <label>Primeiro número:</label>
-    <input type="number" name="n1" step="any" required>
+    <input type="number" name="n1" required>
     <br><br>
 
     <label>Segundo número:</label>
-    <input type="number" name="n2" step="any" required>
+    <input type="number" name="n2" required>
     <br><br>
     <label>Terceiro número:</label>
-    <input type="number" name="n3" step="any" required>
+    <input type="number" name="n3" required>
     <br><br>
 
     <label>Quarto número:</label>
-    <input type="number" name="n4" step="any" required>
+    <input type="number" name="n4" required>
     <br><br>
     <label>Quinto número:</label> 
-    <input type="number" name="n5" step="any" required>
+    <input type="number" name="n5" required>
     <br><br>
 
 

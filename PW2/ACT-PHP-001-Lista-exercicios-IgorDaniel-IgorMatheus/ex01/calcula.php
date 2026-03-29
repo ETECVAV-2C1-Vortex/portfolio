@@ -1,6 +1,6 @@
 <?php
 
-$n1 = $_GET["n1"];
+$n1 = (float)$_GET["n1"];
 
 ?>
 
@@ -20,9 +20,9 @@ $n1 = $_GET["n1"];
 <h1>Número verificado</h1>
 
 <?php 
-if ($n1 >= 100 && $n1 <= 200) {
-    echo "O número $n1 está entre 100 e 200";
-}
+    if ($n1 >= 100 && $n1 <= 200) {
+        echo "O número $n1 está entre 100 e 200";
+    }
     else {
         echo "O número $n1 não está entre 100 e 200";
     }

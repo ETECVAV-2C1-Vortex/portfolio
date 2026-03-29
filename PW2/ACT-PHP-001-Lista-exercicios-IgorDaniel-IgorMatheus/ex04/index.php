@@ -1,7 +1,7 @@
 <!--
-Data: 13/03/2026
+Data: 29/03/2026
 Autor: Igor Daniel e Igor Matheus
-Objetivo:
+Objetivo: Gerar um triângulo numérico com n linhas utilizando estruturas de repetição aninhadas em PHP, recebendo o parâmetro via método GET
 
 Exercício 4 - Triângulo Numérico
 Leia um número n e imprima n linhas no seguinte formato (exemplo para n = 6):
