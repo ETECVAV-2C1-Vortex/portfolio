@@ -69,12 +69,46 @@ Inclusão de um botão para interromper o som (Stop)
 Utiliza o componente de hardware do celular para capturar fotografias. O app abre a câmera, tira a foto e a exibe em um componente de imagem na tela
 
 ### Melhoria sugerida: 
-Inclusão de um botão para interromper o som (Stop)
+Um botão que apaga a foto da tela após ela ser tirada, permitindo que o usuário limpe a interface sem fechar o app
 
 ## Print do Design
-<img src="images/p3_tela1.jpg">
+<img src="images/p4_tela1.jpg">
 
 ## Print dos Blocos
-<img src="images/p3_blocos.jpg">
+<img src="images/p4_blocos.jpg">
 
 ---
+
+# Projeto 5 – Quinto Aplicativo 
+
+### Descrição:
+Foca na navegação entre diferentes interfaces. O usuário clica em botões na tela inicial para ser direcionado às telas 1 ou 2, com botões para retornar
+
+### Melhoria sugerida: 
+Utilização de temas visuais diferentes para cada tela para facilitar a distinção
+
+## Print do Design
+<img src="images/p5_tela1.jpg">
+<img src="images/p5_tela2.jpg">
+<img src="images/p5_tela3.jpg">
+
+## Print dos Blocos
+<img src="images/p5_blocos1.jpg">
+<img src="images/p5_blocos2.jpg">
+<img src="images/p5_blocos3.jpg">
+
+---
+
+# Projeto 6 – Sexto Aplicativo 
+
+### Descrição:
+Captura a entrada de texto do usuário através do teclado. Ao digitar o nome e clicar no botão, o app exibe uma saudação concatenada (ex: "Olá [Nome]!!!")
+
+### Melhoria sugerida: 
+Validação para não permitir saudações vazias usando o notificador
+
+## Print do Design
+<img src="images/p6_tela1.jpg">
+
+## Print dos Blocos
+<img src="images/p6_blocos.jpg">
