@@ -44,22 +44,23 @@ PAM/
 │
 ├── ATV-APP-002-Aplicativos-Apostila-IgorDaniel-IgorMatheus/
 │ ├── app-apostila1/
-│ └── m2-app-inventor.md
+│ ├── m2-app-inventor.md
+│ └── exercicios-apostila.docx
 
 PW2/
 │
 ├── ACT-PHP-001-Lista-exercicios-Hector-Joao/
 │ ├── ex01 - ex10/
-│ ├── index.php
-│ └── calcula.php
+│   ├── index.php
+│   └── calcula.php
 │
 ├── ACT-PHP-001-Lista-exercicios-IgorDaniel-IgorMatheus/
 │ ├── ex01 - ex10/
-│ ├── index.php
-│ └── calcula.php
+│   ├── index.php
+│   └── calcula.php
 │
 └── ACT-PHP-002-cookie-session/
-└── 1BIM-M3-cookie-session.md
+  └── 1BIM-M3-cookie-session.md
 ```
 ---
 
