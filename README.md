@@ -4,11 +4,19 @@ Programação Web II e Programação de Aplicativos Mobile
 
 ---
 
-## 👥 Integrantes do Grupo
+## 👥 Integrantes do Portfolio
 
-- Igor Daniel — [@IgorEustachio](https://github.com/IgorEustachio)  
-- Igor Matheus — [@Viola2365](https://github.com/Viola2365)  
+### Dupla 1: 
 - Hector Elias — [@hectorelias04](https://github.com/hectorelias04)  
+- João Guilherme — [@joao-s25](https://github.com/joao-s25)
+
+### Dupla 2:
+- Igor Daniel — [@IgorEustachio](https://github.com/IgorEustachio)  
+- Igor Matheus — [@Viola2365](https://github.com/Viola2365)
+
+### Trio:
+- Igor Daniel — [@IgorEustachio](https://github.com/IgorEustachio)  
+- Igor Matheus — [@Viola2365](https://github.com/Viola2365)
 - João Guilherme — [@joao-s25](https://github.com/joao-s25)
 
 ---
