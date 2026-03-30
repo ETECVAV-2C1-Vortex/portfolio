@@ -1,9 +1,3 @@
-<!-- 
- Autor do codigo: Hector Elias
- sala : 2C¹
- exercicio 9 
- lista 1 
--->
 
 <?php
 function media($v){

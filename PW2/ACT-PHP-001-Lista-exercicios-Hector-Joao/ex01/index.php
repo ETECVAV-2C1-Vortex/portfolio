@@ -1,7 +1,7 @@
 <!--
 Data: 06/03/2026
 Autor: Joao G, Hector
-Objetivo: 
+Objetivo: criar um site php que diz se um numero está entre 100 e 200
 
 Exercício 1 - Intervalo entre 100 e 200
 Faça um programa que receba um número e diga se este número está no intervalo entre 100 e 200.

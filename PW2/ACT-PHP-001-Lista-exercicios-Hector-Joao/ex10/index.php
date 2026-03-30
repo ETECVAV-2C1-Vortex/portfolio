@@ -1,7 +1,7 @@
 <!--
 Data: 06/03/2026
-Autor: Joao G.
-Objetivo: nao sei
+Autor:Hector Elias Joao G.
+Objetivo: Criar um site php que diz se um ano é bissexto ou nao
 
 Exercício 10 - Ano Bissexto
 Leia um ano e informe se ele é bissexto.

@@ -1,7 +1,7 @@
 <!--
 Data: 06/03/2026
 Autor: João G., Hector Elias
-Objetivo:
+Objetivo: Criar uma calculadora em um site php
 
 Exercício 3 - Calculadora Aritmética
 Faça um programa que leia dois números e um operador ("+", "-", "*" ou "/").

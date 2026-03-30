@@ -1,7 +1,7 @@
 <!--
 Data: 27/03/2026
 Autor: Joao G., Hector
-Objetivo: 
+Objetivo: criar um site php que mostre os numeros da sequência de Fibonacci
 
 Exercício 6 - Série de Fibonacci
 Leia um número n e mostre os n primeiros termos da sequência de Fibonacci.

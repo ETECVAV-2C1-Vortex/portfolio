@@ -1,7 +1,7 @@
 <!--
 Data: 20/03/2026
 Autor: Joao G, Hector
-Objetivo: nao sei
+Objetivo: criar um site php que separe numeros positivos e negativos
 
 Exercício 7 - Separar Positivos e Negativos
 Leia 8 números inteiros e separe em dois vetores:

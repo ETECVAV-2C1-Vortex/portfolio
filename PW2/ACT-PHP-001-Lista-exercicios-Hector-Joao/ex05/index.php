@@ -1,7 +1,7 @@
 <!--
 Data: 06/03/2026
 Autor: Joao G., Hector 
-Objetivo: 
+Objetivo: Criar um site PHP que some fatoriais de numeros enviados
 
 Exercício 5 - Somatorio de Fatoriais
 Leia 5 números inteiros e mostre a soma dos fatoriais desses números.

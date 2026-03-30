@@ -1,11 +1,15 @@
-<!-- 
- Autor do codigo: Hector Elias
- sala : 2C¹
- exercicio 9 
- lista 1 
+
+<!--
+Data: 29/03/2026
+Autor: Hector Elias, Joao Gui
+Objetivo: criar um site php para calcular a média aritmética
+Exercício 9 - Média Aritmética com Função
+Crie uma função:
+
+function media($v)
+
+Que receba uma lista de números reais e retorne a média aritmética.
 -->
-
-
 
 <!DOCTYPE html>
 <html lang="pt-br">
