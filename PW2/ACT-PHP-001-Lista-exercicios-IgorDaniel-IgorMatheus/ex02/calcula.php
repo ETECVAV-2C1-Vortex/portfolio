@@ -11,9 +11,8 @@ $unidade = (string)$_GET["unidade"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Converter Unidade</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

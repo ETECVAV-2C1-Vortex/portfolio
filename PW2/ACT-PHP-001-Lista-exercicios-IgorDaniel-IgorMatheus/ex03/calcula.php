@@ -12,9 +12,8 @@ $operador = (string)$_GET["operador"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Calculadora Aritmética</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

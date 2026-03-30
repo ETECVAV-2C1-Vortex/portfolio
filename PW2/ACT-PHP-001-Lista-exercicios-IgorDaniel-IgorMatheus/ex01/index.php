@@ -11,6 +11,7 @@ Faça um programa que receba um número e diga se este número está no interval
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Intervalo entre 100 e 200</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

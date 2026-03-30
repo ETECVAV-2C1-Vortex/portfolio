@@ -11,6 +11,7 @@ O programa deve mostrar o resultado da operação.
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Calculadora Aritmética</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

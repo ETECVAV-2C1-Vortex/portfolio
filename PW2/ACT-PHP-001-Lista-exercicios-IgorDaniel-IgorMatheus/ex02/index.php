@@ -13,6 +13,7 @@ Fórmula: C = 5/9 × (F − 32)
 <head> 
   <meta charset="UTF-8">
   <title>Converter Temperatura</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

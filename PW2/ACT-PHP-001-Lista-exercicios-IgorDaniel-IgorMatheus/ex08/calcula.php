@@ -10,9 +10,8 @@ $n1 = (int)$_GET["n1"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Soma de 0 até N</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

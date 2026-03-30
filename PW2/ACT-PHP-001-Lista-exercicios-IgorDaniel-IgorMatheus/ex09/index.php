@@ -15,6 +15,7 @@ Que receba uma lista de números reais e retorne a média aritmética.
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Média Aritmética</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

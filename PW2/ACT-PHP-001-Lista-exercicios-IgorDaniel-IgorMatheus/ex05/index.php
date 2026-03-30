@@ -11,6 +11,7 @@ Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Soma de fatoriais</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

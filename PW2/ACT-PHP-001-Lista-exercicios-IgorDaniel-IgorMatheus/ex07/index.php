@@ -15,6 +15,7 @@ Um vetor com números negativos
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Positivos e Negativos</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

@@ -10,9 +10,8 @@ $n1 = (float)$_GET["n1"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Número entre 100 e 200</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

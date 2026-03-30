@@ -18,9 +18,8 @@ $n5 = (int)$_POST["n5"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Soma de Fatoriais</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

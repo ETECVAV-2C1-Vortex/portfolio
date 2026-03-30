@@ -12,9 +12,8 @@ $numeros = [$n1, $n2, $n3];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Média Aritmética</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

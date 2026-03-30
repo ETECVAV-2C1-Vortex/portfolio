@@ -18,6 +18,7 @@ Leia um número n e imprima n linhas no seguinte formato (exemplo para n = 6):
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Triângulo Numérico</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

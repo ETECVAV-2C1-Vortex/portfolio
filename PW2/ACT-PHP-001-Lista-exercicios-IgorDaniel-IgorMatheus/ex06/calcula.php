@@ -8,6 +8,7 @@ $n = (int)$_GET["n"];
 <head>
     <meta charset="UTF-8">
     <title>Série de Fibonacci</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

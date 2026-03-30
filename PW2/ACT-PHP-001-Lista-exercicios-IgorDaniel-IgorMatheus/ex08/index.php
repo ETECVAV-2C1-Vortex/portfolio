@@ -11,6 +11,7 @@ Crie uma função soma(n) que receba um número inteiro e retorne a soma de 0 at
 <html lang="pt-br">
 <head> <meta charset="UTF-8">
   <title>Soma de 0 até N</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 

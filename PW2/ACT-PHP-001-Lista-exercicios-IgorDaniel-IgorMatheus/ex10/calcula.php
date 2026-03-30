@@ -10,9 +10,8 @@ $ano = (int)$_GET["ano"];
 
 <head>
 <meta charset="UTF-8">
-
 <title>Anos Bissextos</title>
-
+<link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
