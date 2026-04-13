@@ -38,5 +38,34 @@ Israel Battle
 
 **Melhorias ou ideias novas:**
 - Implementação de mais finais
-- Aprofundamento da história 
+- Aprofundamento da história
 
+---
+
+## 🖥 Print das telas do Design
+
+<img src="images/tela1.jpg">
+<img src="images/opcao.jpg">
+<img src="images/opcao1.jpg">
+<img src="images/opcao2.jpg">
+<img src="images/opcao3.jpg">
+<img src="images/opcao4.jpg">
+<img src="images/opcao5.jpg">
+<img src="images/final1.jpg">
+<img src="images/final2.jpg">
+<img src="images/final3.jpg">
+<img src="images/final4.jpg">
+<img src="images/final5.jpg">
+
+
+---
+
+## 🧩 Print das telas dos Blocos
+
+<img src="images/bloco1.jpg">
+<img src="images/bloco2.jpg">
+<img src="images/bloco3.jpg">
+<img src="images/bloco4.jpg">
+<img src="images/bloco5.jpg">
+<img src="images/bloco6.jpg">
+<img src="images/bloco7.jpg">
