@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<h2>Cadastrar aluno</h2>
+<h2>Cadastrar produto</h2>
 
 <form action="cadastro.php" method="POST">
 
