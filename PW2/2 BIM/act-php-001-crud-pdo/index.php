@@ -1,5 +1,5 @@
 <?php 
-require "config/conexao.php";
+require_once "config/conexao.php";
 
 $sql = "SELECT * FROM Produtos ORDER BY nome ASC";
 $stmt = $pdo->prepare($sql);

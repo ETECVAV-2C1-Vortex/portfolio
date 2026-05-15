@@ -33,7 +33,7 @@
 </body>
 </html>
 <?php
-require "config/conexao.php";
+require_once "config/conexao.php";
 
 $nome = $_POST['nome'];
 
