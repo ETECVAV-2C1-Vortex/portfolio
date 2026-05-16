@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Cadastro</title>
-</head>
-<body>
+
+<?php
+require 'includes/header.php';
+?>
+
 
 <h2>Cadastrar produto</h2>
 

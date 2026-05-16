@@ -1,4 +1,6 @@
-<?php 
+<?php
+require 'includes/header.php';
+
 require_once "config/conexao.php";
 
 $sql = "SELECT * FROM Produtos ORDER BY nome ASC";
@@ -22,6 +24,5 @@ if ($produtos) {
 }
 
 
-
-
 ?>
+
