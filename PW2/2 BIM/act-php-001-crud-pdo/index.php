@@ -23,6 +23,6 @@ if ($produtos) {
     echo "A agenda está vazia.";
 }
 
-
+require 'includes/footer.php';
 ?>
 

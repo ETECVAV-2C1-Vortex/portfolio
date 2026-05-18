@@ -56,3 +56,7 @@ $stmt->execute([
 
 
 ?>
+
+<?php
+require 'includes/footer.php'
+?>

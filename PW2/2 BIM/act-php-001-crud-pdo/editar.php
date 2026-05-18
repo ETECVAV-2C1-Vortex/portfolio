@@ -66,4 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </form>
 </body>
+<?php
+require 'includes/footer.php'
+?>
 </html> 
