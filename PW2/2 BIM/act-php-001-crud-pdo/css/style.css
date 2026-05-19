@@ -63,6 +63,40 @@ body{
 
 
 
+    footer {
+        background-color: #051db0;
+        color:#00acb0;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 42px 34px;
+        margin-top: auto;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+
+    footer h1,
+    footer p {
+        margin: 0;
+    }
+
+    footer p {
+        font-size: 1.2em;
+    }
+
+    .footer strong {
+        color: #00acb0;
+    }
+
+    .barra {
+    width: 2px;
+    height: 64px;
+    background-color:#00acb0;
+    margin: 0;
+    border-radius: 3px;
+}
+
 @media(min-width:600px){
 
     .head{
@@ -79,10 +113,6 @@ body{
 }
 
 
-
-
-
-
 .cdbar{
 
     display: flex;
@@ -93,8 +123,6 @@ body{
 
     height:48px;
     margin: 16px;
-
-
 }
 
 .cdbar label{

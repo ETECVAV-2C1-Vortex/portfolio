@@ -65,8 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit">Salvar</button>
 
 </form>
-</body>
+
 <?php
 require 'includes/footer.php'
 ?>
-</html> 
