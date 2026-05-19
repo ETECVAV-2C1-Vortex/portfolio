@@ -1,5 +1,179 @@
-.fs{
+body{
+    margin:0;
+   }
+   
+   .head{
 
-text-decoration:solid;
-font-weight: 100;
+        color: white;
+        height: 96px;
+        background-color:#051db0 ;
+        
+        text-align: center;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px; 
+
+        }
+
+    .navb{
+        height:48px;
+        background-color:#00acb0; 
+
+        text-align:center;
+         display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+
+    }
+    .navb a{
+        color:white;
+        text-decoration:none;
+
+        font-family:Arial;
+        font-size:18px;
+
+        width:80px;
+    
+    }
+    .navb a:hover{
+        color:#051db0;
+        font-weight:bold;
+    }
+
+
+    h2{
+
+        color: #051db0;
+        font-family: arial;
+        font-size: 32px;
+        font-weight: bold;
+
+        margin: 16px;
+    }
+
+
+
+
+
+
+
+
+
+@media(min-width:600px){
+
+    .head{
+    height: 120px;
+    font-size: 18px; 
+    }
+
+    .navb{
+    height:56px;
+    gap:32px;
+  
+    }
+   
 }
+
+
+
+
+
+
+.cdbar{
+
+    display: flex;
+    align-items: center;
+
+    background-color: #00acb0;
+    border-radius: 2px;
+
+    height:48px;
+    margin: 16px;
+
+
+}
+
+.cdbar label{
+
+    text-align: center;
+    font-family: arial;
+    color: white;
+ 
+    width: 20%;
+}
+
+.cdbar input{
+
+    width: 100%;
+    border: none;
+
+    height: 24px;
+
+    outline: none;
+}
+
+.iptbar{
+
+    background-color: #051db0;
+
+    padding: 11px;
+
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.svbt {
+
+    background-color: #051db0;
+    color: white;
+
+
+    border-radius: 8px;
+    
+    width: 240px;
+    height: 64px;
+
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(min-width:600px){
+
+    
+.svbt {
+
+    margin: 16px;
+    
+    
+    width: 240px;
+    height: 48px;
+
+}
+
+   
+   
+}
+
+
+
+
+
+
+

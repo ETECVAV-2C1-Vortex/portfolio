@@ -8,30 +8,69 @@ require 'includes/header.php';
 
 <form action="cadastro.php" method="POST">
 
-    <label>Nome:</label>
+
+    <div class="cdbar">
+    <label>Nome</label>
+    
+    <div class="iptbar">
     <input type="text" name="nome" required>
-    <br><br>
+    </div>
 
+  
+    </div>
+
+
+
+
+    <div class="cdbar">
     <label>Fabricante</label>
+    
+    <div class="iptbar">
     <input type="text" name="fabricante" required>
-    <br><br>
+    </div>
 
-    <label>Preço:</label>
+    </div>
+
+
+
+
+
+    <div class="cdbar">
+    <label>Preço</label>
+    
+    <div class="iptbar">
     <input type="number" step="0.01" name="preco" required>
-    <br><br>
+    </div>
 
-    <label>Estoque:</label>
+
+    </div>
+
+
+
+
+
+    <div class="cdbar">
+    <label>Estoque</label>
+    
+    <div class="iptbar">
     <input type="number" name="estoque" required>
-    <br><br>
+    </div>
 
 
-    <button type="submit">Salvar</button>
+    </div>
+
+
+
+
+
+    <button class="svbt" type="submit">Salvar</button>
 
 </form>
 
 </body>
 </html>
 <?php
+
 require_once "config/conexao.php";
 
 $nome = $_POST['nome'];
