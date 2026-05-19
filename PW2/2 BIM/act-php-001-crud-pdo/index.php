@@ -20,7 +20,7 @@ if ($produtos) {
         echo "-----------------------------------<br>";
     }
 } else {
-    echo "A agenda está vazia.";
+    echo "A lista está vazia.";
 }
 
 require 'includes/footer.php';
