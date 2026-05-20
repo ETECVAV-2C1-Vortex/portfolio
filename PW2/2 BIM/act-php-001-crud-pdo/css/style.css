@@ -113,6 +113,13 @@ body{
 }
 
 
+
+
+
+
+/* Cadastro (Inserir)*/
+
+
 .cdbar{
 
     display: flex;
@@ -186,20 +193,101 @@ body{
 
     
 .svbt {
-
     margin: 16px;
-    
-    
     width: 240px;
     height: 48px;
-
 }
-
-   
-   
 }
 
 
+
+
+
+
+
+
+/* Index (Visualizar) */
+
+.vsbar{
+
+margin: 24px 0px 24px 0px;
+height: 140px;
+
+background-color: #051db0;
+
+display: flex;
+
+}
+
+
+.info {
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 16px;
+}
+
+
+.info i, p{
+   
+    width: 50%;
+    height: 50%;
+
+    color: #00acb0;
+    
+    font-family: arial;
+    font-size: 18px;
+
+    margin: 0px;
+
+}
+
+.info p{
+    color: white;
+}
+
+
+.idbar{
+
+    background-color: #00acb0;
+    color: white;
+
+    width: 18%;
+    height:100%;
+
+     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.idbar h1{
+
+   font-size: 24px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+
+
+@media(min-width:600px){
+
+.info {
+padding: 28px;
+}
+
+.info i,p{
+font-size: 22px;
+}
+.idbar{
+    width: 12%;
+}
+.idbar h1{
+    font-size: 32px;
+}
+
+}
 
 
 

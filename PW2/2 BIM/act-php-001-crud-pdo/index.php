@@ -9,20 +9,59 @@ $stmt->execute();
 
 $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
+
+echo"      <h2>Registros</h2>";
+
+
 if ($produtos) {
     foreach ($produtos as $registro) {
-        echo "-----------------------------------<br>";
-        echo "ID: " . $registro['id'] . " | ";
-        echo "Nome: " . $registro['nome'] . " | ";
-        echo "Fabricante:" . $registro['fabricante'] . "<br>";
-        echo "Estoque:" . $registro['estoque'] . "<br>";
-        echo "Preco:" . $registro['preco'] . "<br>";
-        echo "-----------------------------------<br>";
+
+
+        echo "  
+          
+
+                <div class='vsbar'>
+
+                    <div class='idbar'>
+                        <h1>ID: ". $registro['id'] ."</h1>
+                    </div>
+
+
+                <div class='info'>
+
+
+                    <i>Produto: ". $registro['nome'] ." </i>
+
+                    <i>Fabricante: ". $registro['fabricante'] ."</i>
+
+                    <p>Estoque: ". $registro['estoque'] ."</p>
+
+                    <p>Preço: ". $registro['preco'] ."</p>
+
+
+                </div>
+
+                </div>
+
+        
+        
+        ";
+
+
+
+
+
     }
 } else {
-    echo "A lista está vazia.";
+    echo "<h3>A lista está vazia.</h3>";
 }
+?>
 
+
+
+
+
+<?php
 require 'includes/footer.php';
 ?>
 
