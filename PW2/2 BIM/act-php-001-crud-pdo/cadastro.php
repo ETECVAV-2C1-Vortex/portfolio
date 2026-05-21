@@ -24,12 +24,8 @@ require 'includes/header.php';
     <div class="iptbar">
     <input type="text" name="nome" required>
     </div>
-
   
     </div>
-
-
-
 
     <div class="cdbar">
     <label>Fabricante</label>
@@ -40,23 +36,13 @@ require 'includes/header.php';
 
     </div>
 
-
-
-
-
     <div class="cdbar">
     <label>Preço</label>
     
     <div class="iptbar">
     <input type="number" step="0.01" name="preco" required>
     </div>
-
-
     </div>
-
-
-
-
 
     <div class="cdbar">
     <label>Estoque</label>
@@ -64,7 +50,6 @@ require 'includes/header.php';
     <div class="iptbar">
     <input type="number" name="estoque" required>
     </div>
-
 
     </div>
 
@@ -77,27 +62,32 @@ require 'includes/header.php';
 
 require_once "config/conexao.php";
 
-$nome = $_POST['nome'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-$fabricante = $_POST['fabricante'];
+    $nome = $_POST['nome'];
+    $fabricante = $_POST['fabricante'];
+    $preco = $_POST['preco'];
+    $estoque = $_POST['estoque'];
 
-$preco = $_POST['preco'];
+    $sql = "INSERT INTO produtos (nome, fabricante, preco, estoque)
+            VALUES (:nome, :fabricante, :preco, :estoque)";
 
-$estoque = $_POST['estoque'];
+    $stmt = $pdo->prepare($sql);
 
-$sql = "INSERT INTO produtos (nome, fabricante, preco, estoque)
-        VALUES (:nome, :fabricante, :preco, :estoque)";
+    $stmt->execute([
+        ':nome' => $nome,
+        ':fabricante' => $fabricante,
+        ':preco' => $preco,
+        ':estoque' => $estoque
+    ]);
 
-$stmt = $pdo->prepare($sql);
-
-$stmt->execute([
-    ':nome' => $nome,
-    ':fabricante' => $fabricante,
-    ':preco' => $preco,
-    ':estoque' => $estoque
-]);
-
-
+    if ($stmt->rowCount() > 0) {
+        header("Location: index.php");
+        exit;
+    }
+}
+?>
+<?php
 require 'includes/footer.php';
 ?>
 </body>

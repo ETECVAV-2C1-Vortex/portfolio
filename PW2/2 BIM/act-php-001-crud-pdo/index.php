@@ -3,14 +3,14 @@ require 'includes/header.php';
 
 require_once "config/conexao.php";
 
-$sql = "SELECT * FROM Produtos ORDER BY nome ASC";
+$sql = "SELECT * FROM Produtos ORDER BY id ASC";
 $stmt = $pdo->prepare($sql);
 $stmt->execute();
 
 $produtos = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
-echo"      <h2>Registros</h2>";
+echo"<h2>Registros</h2>";
 
 
 if ($produtos) {
@@ -56,10 +56,6 @@ if ($produtos) {
     echo "<h3>A lista está vazia.</h3>";
 }
 ?>
-
-
-
-
 
 <?php
 require 'includes/footer.php';

@@ -8,11 +8,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "DELETE FROM produtos WHERE id = :id";
     $stmt = $pdo->prepare($sql);
 
-    // 3. EXECUTAR:
     $stmt->execute([':id' => $id]);
 
-    // 4. VERIFICAÇÃO:
-    // O rowCount nos diz se realmente alguma linha foi removida
     if ($stmt->rowCount() > 0) {
         header("Location: index.php");
         exit;
@@ -25,11 +22,8 @@ elseif (isset($_GET['id'])) {
     $sql = "SELECT * FROM produtos WHERE id = :id";
     $stmt = $pdo->prepare($sql);
 
-    // 3. EXECUTAR: Passamos o valor real para o apelido :id
     $stmt->execute([':id' => $id]);
 
-    // 4. BUSCAR: Como o ID é único, usamos fetch() em vez de fetchAll()
-    // O FETCH_ASSOC serve para que o resultado venha como um array ['campo' => 'valor']
     $produto = $stmt->fetch(PDO::FETCH_ASSOC);
 
       if ($produto === false) {
@@ -46,41 +40,67 @@ elseif (isset($_GET['id'])) {
 ?>
 
 <?php if (!isset($produto)): ?>
-     <form action="excluir.php" method="GET">
-        <label>ID do produto:</label>
-        <input type="number" name="id" required>
-        <br><br>
-        <button type="submit">Buscar</button>
-     </form>
-  <?php elseif (isset($produto)): ?>
-     <form action="excluir.php" method="POST">
 
-    <input type="hidden" name="id" value="<?php echo $produto['id']; ?>" readonly>
+    <h2>Excluir Produto</h2>
 
-    <label>Nome do Produto:</label>
-    <input type="text" value="<?php echo $produto['nome']; ?>" readonly>
-    <br><br>
+    <form action="excluir.php" method="GET">
 
-    <label>Fabricante:</label>
-    <input type="text" value="<?php echo $produto['fabricante']; ?>" readonly>
-    <br><br>
+        <div class="cdbar">
+            <label>ID</label>
+            <div class="iptbar">
+                <input type="number" name="id" required>
+            </div>
+        </div>
 
-    <label>Preço (R$):</label>
-    <input type="number" step="0.01" value="<?php echo $produto['preco']; ?>" readonly>
-    <br><br>
+        <button class="svbt" type="submit">Buscar</button>
 
-    <label>Estoque Atual:</label>
-    <input type="number" value="<?php echo $produto['estoque']; ?>" readonly>
-    <br><br>
+    </form>
 
-    <button type="submit">Excluir</button>
+<?php elseif (isset($produto)): ?>
 
-</form>
-  <?php endif; ?>
+    <h2>Excluir Produto</h2>
 
-  <?php if (isset($_GET['erro'])): ?>
-      <p><?php echo $_GET['erro']; ?></p>
-  <?php endif; ?>
+    <form action="excluir.php" method="POST">
+
+        <input type="hidden" name="id" value="<?php echo $produto['id']; ?>">
+
+        <div class="cdbar">
+            <label>Nome</label>
+            <div class="iptbar">
+                <input type="text" value="<?php echo htmlspecialchars($produto['nome']); ?>" readonly>
+            </div>
+        </div>
+
+        <div class="cdbar">
+            <label>Fabricante</label>
+            <div class="iptbar">
+                <input type="text" value="<?php echo htmlspecialchars($produto['fabricante']); ?>" readonly>
+            </div>
+        </div>
+
+        <div class="cdbar">
+            <label>Preço</label>
+            <div class="iptbar">
+                <input type="number" step="0.01" value="<?php echo $produto['preco']; ?>" readonly>
+            </div>
+        </div>
+
+        <div class="cdbar">
+            <label>Estoque</label>
+            <div class="iptbar">
+                <input type="number" value="<?php echo $produto['estoque']; ?>" readonly>
+            </div>
+        </div>
+
+        <button class="dlbt" type="submit">Excluir</button>
+
+    </form>
+
+<?php endif; ?>
+
+<?php if (isset($_GET['erro'])): ?>
+    <p class="msg-erro"><?php echo htmlspecialchars($_GET['erro']); ?></p>
+<?php endif; ?>
 
 <?php
 require 'includes/footer.php';
