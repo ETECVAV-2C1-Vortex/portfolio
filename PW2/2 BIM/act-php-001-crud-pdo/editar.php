@@ -54,14 +54,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <form action="editar.php" method="GET">
 
-        <div class="cdbar">
-            <label>ID</label>
-            <div class="iptbar">
+      <div class="edBusca">
+            <label>ID:</label>
+        
                 <input type="number" name="id" required>
-            </div>
-        </div>
-
-        <button class="svbt" type="submit">Buscar</button>
+     
+        <button type="submit">Buscar</button>
+        <hr>
+    </div>
 
     </form>
 

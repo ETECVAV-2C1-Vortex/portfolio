@@ -207,6 +207,15 @@ body{
 }
 }
 
+
+
+
+
+
+
+
+
+
 .dlbt {
     background-color: var(--ciano);
     color: var(--branco);
@@ -251,6 +260,16 @@ body{
     font-size: 16px;
     margin: 12px 16px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* Index */
 
@@ -329,6 +348,110 @@ font-size: 22px;
 }
 .idbar h1{
     font-size: 32px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Busca (Editar/Deletar) */
+
+.edBusca{
+height: 100px;
+margin: 0 24px 24px 24px;
+
+}
+
+
+.edBusca label{
+    color: #051db0;
+
+    font-family: arial;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+.edBusca input{
+   border:solid 2px #00acb0;
+   position: relative;
+   bottom: 2.5px;
+   
+    width: 86%;
+
+   color: #00acb0;
+   font-size: 20px;
+
+}
+
+.edBusca input::-webkit-inner-spin-button{
+    visibility: hidden;
+}
+
+
+.edBusca button{
+border-radius: 4px;
+border:solid 2px #051db0;
+
+position: relative;
+bottom: 2px;
+
+background-color: #051db0;
+color: white;
+
+font-weight: bold;
+font-size: 22px;
+
+height: 36px;
+
+margin:10px auto;
+display: block;
+
+justify-content: center;
+
+}
+
+.edBusca hr{
+visibility: hidden;
+}
+
+
+
+@media(min-width:600px){
+
+
+.edBusca input{
+font-size: 14px;
+width: 128px;
+}
+
+.edBusca button{
+
+height: 24px;
+font-size: 14px;
+margin: 2;
+display: inline;
+}
+
+.edBusca hr{
+visibility: visible;
+
+background-color: #051db0;
+border-color: #051db0;
+border-radius: 4px;
+height: 2px;
+
 }
 
 }

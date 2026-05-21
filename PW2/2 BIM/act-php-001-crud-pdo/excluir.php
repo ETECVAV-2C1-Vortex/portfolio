@@ -45,16 +45,25 @@ elseif (isset($_GET['id'])) {
 
     <form action="excluir.php" method="GET">
 
-        <div class="cdbar">
-            <label>ID</label>
-            <div class="iptbar">
-                <input type="number" name="id" required>
-            </div>
+        <div class="edBusca">
+            <label>ID:</label>
+           
+          <input type="number" name="id" required>
+            
+        <button  type="submit">Buscar</button>
+        <hr>
         </div>
 
-        <button class="svbt" type="submit">Buscar</button>
-
     </form>
+
+
+
+
+
+
+
+
+
 
 <?php elseif (isset($produto)): ?>
 
