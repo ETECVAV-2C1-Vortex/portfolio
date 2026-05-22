@@ -31,10 +31,7 @@ elseif (isset($_GET['id'])) {
         exit;
       }
 
-      if ($produto === false) {
-        header("Location: editar.php?erro=ID não encontrado");
-        exit;
-}} else {
+} else {
 
 }
 ?>
