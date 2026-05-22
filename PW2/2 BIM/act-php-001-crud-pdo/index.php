@@ -53,7 +53,7 @@ if ($produtos) {
 
     }
 } else {
-    echo "<h3>A lista está vazia.</h3>";
+    echo "<p class='msg-erro'>A lista está vazia.</p>";
 }
 ?>
 
