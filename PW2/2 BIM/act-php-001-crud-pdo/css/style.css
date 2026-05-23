@@ -144,24 +144,6 @@ body{
 width: 2px;
 }
 
-<<<<<<< HEAD
-=======
-footer h1{
-    font-size: 24px;
-}
-
-footer p{
-    font-size: 16px;
-}
-
-}
-
-
-
-/* Cadastro */
-
-
->>>>>>> 2036416325aa348a4e051e85987db5d236a8679e
 .cdbar{
 
     display: flex;
@@ -199,13 +181,7 @@ footer p{
 
 
     padding: 11px;
-<<<<<<< HEAD
     width: 80%;
-=======
-
-    width: 75%;
-
->>>>>>> 2036416325aa348a4e051e85987db5d236a8679e
     display: flex;
     align-items: center;
 }
@@ -252,11 +228,6 @@ footer p{
     background-color: var(--azul);
     color: var(--branco);
     border-radius: 8px;
-<<<<<<< HEAD
-=======
-    border: solid var(--azul) 1px;
-
->>>>>>> 2036416325aa348a4e051e85987db5d236a8679e
     width: 240px;
     height: 64px;
 
@@ -327,22 +298,6 @@ footer p{
     text-align: left;
     align-self: auto;
 
-<<<<<<< HEAD
-=======
-    }
-}
-
-
-
-
-
-
-
-
-
-/* Index */
-
->>>>>>> 2036416325aa348a4e051e85987db5d236a8679e
 .vsbar{
 
 margin: 24px 0px 24px 0px;
@@ -508,9 +463,4 @@ border-radius: 4px;
 height: 2px;
 
 }
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 2036416325aa348a4e051e85987db5d236a8679e
