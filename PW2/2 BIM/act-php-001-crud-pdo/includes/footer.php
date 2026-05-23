@@ -1,4 +1,3 @@
-
     <footer>
         <h1>Gerenciador</h1>
         <div class="barra"></div>

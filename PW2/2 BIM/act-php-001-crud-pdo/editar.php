@@ -1,6 +1,5 @@
 <?php
 require_once "config/conexao.php";
-require 'includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -46,6 +45,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
 
 }
+
+require_once "includes/header.php";
 ?>
 
 <?php if (!isset($produto)): ?>
@@ -112,5 +113,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <?php endif; ?>
 
 <?php 
-require 'includes/footer.php';
+require_once "includes/footer.php";
 ?>

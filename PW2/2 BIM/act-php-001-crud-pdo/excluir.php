@@ -1,6 +1,5 @@
 <?php
 require_once "config/conexao.php";
-require 'includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = $_POST['id'];
@@ -14,9 +13,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: index.php");
         exit;
     } else {
-        echo "Nenhum produto foi encontrado com o ID $id.";
-}}
-elseif (isset($_GET['id'])) {
+        header("Location: excluir.php?erro=ID não encontrado");
+        exit;
+    }
+} elseif (isset($_GET['id'])) {
     $id = $_GET['id'];
 
     $sql = "SELECT * FROM produtos WHERE id = :id";
@@ -31,12 +31,11 @@ elseif (isset($_GET['id'])) {
         exit;
       }
 
-      if ($produto === false) {
-        header("Location: editar.php?erro=ID não encontrado");
-        exit;
-}} else {
+} else {
 
 }
+
+require_once 'includes/header.php';
 ?>
 
 <?php if (!isset($produto)): ?>
@@ -55,15 +54,6 @@ elseif (isset($_GET['id'])) {
         </div>
 
     </form>
-
-
-
-
-
-
-
-
-
 
 <?php elseif (isset($produto)): ?>
 
@@ -112,5 +102,5 @@ elseif (isset($_GET['id'])) {
 <?php endif; ?>
 
 <?php
-require 'includes/footer.php';
+require_once 'includes/footer.php';
 ?>

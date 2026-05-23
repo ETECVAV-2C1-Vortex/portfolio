@@ -53,7 +53,6 @@ body{
         font-weight:bold;
     }
 
-
     h2{
 
         color: var(--azul);
@@ -63,14 +62,6 @@ body{
 
         margin: 16px;
     }
-
-
-
-
-
-
-
-
 
     footer {
         background-color: var(--azul);
@@ -121,14 +112,6 @@ body{
    
 }
 
-
-
-
-
-
-/* Cadastro */
-
-
 .cdbar{
 
     display: flex;
@@ -156,7 +139,6 @@ body{
     border: none;
 
     height: 24px;
-
     outline: none;
 }
 
@@ -165,19 +147,15 @@ body{
     background-color: var(--azul);
 
     padding: 11px;
-
     width: 80%;
-
     display: flex;
     align-items: center;
-
 }
 
 .svbt {
 
     background-color: var(--azul);
     color: var(--branco);
-
     border-radius: 8px;
     
     width: 240px;
@@ -196,7 +174,6 @@ body{
     align-items: center;
 }
 
-
 @media(min-width:600px){
 
 
@@ -207,21 +184,10 @@ body{
 }
 }
 
-
-
-
-
-
-
-
-
-
 .dlbt {
     background-color: var(--ciano);
     color: var(--branco);
-
     border-radius: 8px;
-
     width: 240px;
     height: 64px;
 
@@ -262,17 +228,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-/* Index */
-
 .vsbar{
 
 margin: 24px 0px 24px 0px;
@@ -284,13 +239,10 @@ display: flex;
 
 }
 
-
 .info {
     width: 80%;
-
     display: flex;
     flex-wrap: wrap;
-
     padding: 16px;
 }
 
@@ -313,12 +265,10 @@ display: flex;
     color: white;
 }
 
-
 .idbar{
 
     background-color: #00acb0;
     color: white;
-
     width: 18%;
     height:100%;
 
@@ -352,26 +302,11 @@ font-size: 22px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Busca (Editar/Deletar) */
-
 .edBusca{
 height: 100px;
 margin: 0 24px 24px 24px;
 
 }
-
 
 .edBusca label{
     color: #051db0;
@@ -381,7 +316,6 @@ margin: 0 24px 24px 24px;
     font-weight: normal;
     font-style: italic;
 }
-
 
 .edBusca input{
    border:solid 2px #00acb0;
@@ -398,7 +332,6 @@ margin: 0 24px 24px 24px;
 .edBusca input::-webkit-inner-spin-button{
     visibility: hidden;
 }
-
 
 .edBusca button{
 border-radius: 4px;
@@ -426,10 +359,7 @@ justify-content: center;
 visibility: hidden;
 }
 
-
-
 @media(min-width:600px){
-
 
 .edBusca input{
 font-size: 14px;
@@ -453,5 +383,4 @@ border-radius: 4px;
 height: 2px;
 
 }
-
 }
